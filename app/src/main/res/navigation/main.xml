@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@+id/searchScreen">
+
+    <fragment
+        android:id="@+id/searchScreen"
+        android:name="com.tech.musicapp.ui.search.SearchFragment"
+        android:label="search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/albumScreen"
+        android:name="com.tech.musicapp.ui.album.AlbumFragment"
+        android:label="album"
+        tools:layout="@layout/fragment_album" />
+    <fragment
+        android:id="@+id/playlistScreen"
+        android:name="com.tech.musicapp.ui.playlist.PlaylistFragment"
+        android:label="playlist"
+        tools:layout="@layout/fragment_playlist" />
+</navigation>
