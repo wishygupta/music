@@ -16,7 +16,9 @@ public class MainActivity extends DaggerAppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         if (savedInstanceState == null) {
-            Navigation.findNavController(this, R.id.nav_host_fragment).navigate(R.id.searchScreen);
+//            Navigation.findNavController(this, R.id.nav_host_fragment).navigate(R.id.searchScreen);
+            Navigation.findNavController(this, R.id.nav_host_fragment).navigate(R.id.playlistScreen);
         }
     }
+
 }

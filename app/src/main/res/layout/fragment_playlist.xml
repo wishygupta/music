@@ -19,6 +19,7 @@
         android:id="@+id/songName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
         android:layout_margin="10dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/albumImage" />
@@ -32,7 +33,7 @@
         app:layout_constraintTop_toBottomOf="@+id/songName" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/albumsView"
+        android:id="@+id/trakcsView"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="10dp"
